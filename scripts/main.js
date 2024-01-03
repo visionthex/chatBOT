@@ -2,7 +2,7 @@ import { GoogleGenerativeAI } from "https://esm.run/@google/generative-ai";
 
 const API_KEY = "Add your API KEY here"; // replace with your actual API key
 const genAI = new GoogleGenerativeAI(API_KEY);
-const model = genAI.getGenerativeModel({ model: "Select the model type here"}); // replace "gemini-pro" with your actual model name
+const model = genAI.getGenerativeModel({ model: "gemini-pro"}); // replace "gemini-pro" with your actual model name
 
 // Function to handle mouse movement
 function handleMouseMove(e) {
