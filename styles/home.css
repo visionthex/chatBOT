@@ -1,0 +1,42 @@
+/* Set the height of the html element to 100% and apply a linear gradient background */
+html {
+  height: 100%;
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+}
+
+/* Style the home-container with flexbox to center its content vertically and horizontally */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Style the image inside the home-container */
+.home-container img {
+  height: 3em;
+  width: auto;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Style the h1 inside the home-container */
+.home-container h1 {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Add hover effects to the icon */
+.icon:hover {
+  color: red;
+  animation: wiggle 0.5s infinite;
+  filter: brightness(50%) sepia(1) hue-rotate(1000deg) saturate(1000%) contrast(0.8);
+}
+
+/* Define the wiggle animation */
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  75% { transform: rotate(-5deg); }
+}
