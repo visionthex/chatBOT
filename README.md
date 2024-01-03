@@ -1,6 +1,6 @@
 ![Main Page](https://github.com/visionthex/sdi-blended-project1-scaffold/blob/master/img/Screenshot%202024-01-02%20151330.png)
 
-# Project Title
+# chatBOT
 
 This is a web application that uses Google's Generative AI to create a unique user experience. The application has a responsive navigation bar that appears when the mouse is near the edges of the screen.
 
@@ -50,5 +50,5 @@ This project is licensed under the MIT License - see the `LICENSE.md` file for d
 
 ## All powered by:
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,ai)](https://github.com/visionthex)
+![My Skills](https://skillicons.dev/icons?i=js,html,css,ai)
 
