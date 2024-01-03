@@ -1,0 +1,32 @@
+/* Style the body element */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+}
+
+/* Style the content class */
+.content {
+  max-width: 800px;
+  text-align: left;
+}
+
+/* Style the pre element */
+pre {
+  text-align: center;
+}
+
+/* Style the box class */
+.box {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px #ffffff;
+  color: white;
+  background-color: black;
+}

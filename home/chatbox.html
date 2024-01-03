@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../img/chatbot-logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../styles/main.css">
+  <script type="module" defer src="../scripts/main.js"></script>
+  <title>chatBOT</title>
+</head>
+<body>
+  <nav class="navbar">
+    <button type="button" class="nav-button" onclick="window.location.href='../index.html'">Home</button>
+    <button type="button" class="nav-button" onclick="window.location.href='../home/chatbox.html'">Chatbox</button>
+    <button type="button" class="nav-button" onclick="window.location.href='../home/readme.html'">Readme</button>
+    <button type="button" class="nav-button" onclick="window.location.href='../home/aboutme.html'">About Me</button>
+  </nav>
+  <section class="right-navbar">
+    <h3>Saved Converstations</h3>
+    <div id="savedConversations">
+      <!-- Saved conversations will be added here -->
+    </div>
+  </section>
+  <main class="container">
+    <header class="header">
+      <img class="chat-icon" id="chat-icon" src="../img/chatbot-logo.png" alt="logo">
+      <h1>chatBOT</h1>
+    </header>
+    <div id="chatbox">
+      <!-- Chat messages will be added here -->
+    </div>
+    <input id="userInput" type="text" placeholder="Type a message...">
+    <div id="buttonContainer">
+      <button type="button" id="sendBtn" class="chat-button">Send</button>
+      <button type="button" id="clearBtn" class="chat-button">Clear</button>
+    </div>
+  </main>
+</body>
+</html>
