@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "https://esm.run/@google/generative-ai";
 
-const API_KEY = process.env.API_KEY; // replace with your actual API key
+const API_KEY = API_KEY; // replace with your actual API key
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-pro"}); // replace "gemini-pro" with your actual model name
 
